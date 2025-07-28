@@ -87,4 +87,5 @@ export const Images = {
   dummyMusic: require('./images/dummyMusic.png'),
   batterIcon: require('./images/batterIcon.png'),
   blueToothIcon: require('./images/blueToothIcon.png'),
+  notes:require('./images/notes.png'),
 };

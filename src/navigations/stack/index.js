@@ -7,6 +7,7 @@ import MySubscriptions from '@screens/Subscription/MySubscriptions';
 import ChangePlan from '@screens/Subscription/ChangePlan';
 import Payment from '@screens/Subscription/Payment';
 import SubscriptionHistory from '@screens/Subscription/SubscriptionHistory';
+import SleepNotes from '@screens/Dashboard/Report/SleepNotes';
 const Stack = createNativeStackNavigator();
 
 export default function RootStack() {
@@ -20,6 +21,10 @@ export default function RootStack() {
       <Stack.Screen
         name="SubscriptionHistory"
         component={SubscriptionHistory}
+      />
+    <Stack.Screen
+        name="SleepNotes"
+        component={SleepNotes}
       />
     </Stack.Navigator>
   );
