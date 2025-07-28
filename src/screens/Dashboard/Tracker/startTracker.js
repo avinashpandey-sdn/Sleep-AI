@@ -10,6 +10,7 @@ import {
   ImageBackground,
   NativeEventEmitter,
   PermissionsAndroid,
+  Platform,
   Text,
   TouchableOpacity,
   View,
@@ -41,7 +42,8 @@ const formatTime = seconds => {
 
 export default function StartTracker() {
   const bleManager = new BleManager();
-  const eventEmitter = new NativeEventEmitter();
+
+  const eventEmitter = Platform.OS == 'android' ? new NativeEventEmitter() : '';
   const navigation = useNavigation();
   const monitorSubscription = useRef(null);
   const DeviceConnectSheetRef = useRef(null);
@@ -385,8 +387,7 @@ export default function StartTracker() {
 
   // ----------- process on start
   const onRecord = async () => {
-    console.log('step 1>>>');
-    setRecordingStatus(false);
+    setRecordingStatus(false); // recording start
   };
 
   // -------------- process on stop
