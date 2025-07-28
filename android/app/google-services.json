@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "159474485873",
+    "project_id": "aisleep-b0550",
+    "storage_bucket": "aisleep-b0550.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159474485873:android:1ec85ad3befddf7ae6a9d0",
+        "android_client_info": {
+          "package_name": "com.aisleep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159474485873-i3asjg0k4f44d77rrt96rm2aivaohofk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aisleep",
+            "certificate_hash": "ef72ddf29c8cc7e7b0709a443331c4b5353a4f2b"
+          }
+        },
+        {
+          "client_id": "159474485873-fa23vm40i2qmrl1gh6lhrhd7gsiro1ls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-taUZZReptzhUEaKhRpwJzL0jcfG23Z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159474485873-fa23vm40i2qmrl1gh6lhrhd7gsiro1ls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
